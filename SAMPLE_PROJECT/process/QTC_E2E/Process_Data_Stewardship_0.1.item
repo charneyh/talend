@@ -2,16 +2,16 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="Directory" prompt="Directory?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Directory" value="C:/Users/Charney Hoffmann/Documents/Qlik/Certification/Data Integration End-to-End  - Demo Kit/Talend/" internalId="_6rEvgDTOEeuXTauYxf3kuQ"/>
-    <contextParameter comment="" name="MySQL_DB" prompt="MySQL_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="crm" internalId="_6rEvgTTOEeuXTauYxf3kuQ"/>
-    <contextParameter comment="" name="MySQL_Pass" prompt="MySQL_Pass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Talend123" internalId="_6rEvgjTOEeuXTauYxf3kuQ"/>
+    <contextParameter comment="" name="MySQL_DB" prompt="MySQL_DB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysqldb_demo_talend" internalId="_6rEvgTTOEeuXTauYxf3kuQ"/>
+    <contextParameter comment="" name="MySQL_Pass" prompt="MySQL_Pass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" internalId="_6rEvgjTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="MySQL_User" prompt="MySQL_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" internalId="_6rEvgzTOEeuXTauYxf3kuQ"/>
-    <contextParameter comment="" name="TDC_Pass" prompt="TDC_Pass?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Password" value="" internalId="_6rEvhDTOEeuXTauYxf3kuQ"/>
-    <contextParameter comment="" name="TDC_User" prompt="TDC_User?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="" internalId="_6rEvhTTOEeuXTauYxf3kuQ"/>
+    <contextParameter comment="" name="TDC_Pass" prompt="TDC_Pass?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Password" value="enc:system.encryption.key.v1:k02z1cjh6DL1ZjBueeB9D97v7ncqL7lw2kEbmOC0TZnZgqrieWRrgge+tA==" internalId="_6rEvhDTOEeuXTauYxf3kuQ"/>
+    <contextParameter comment="" name="TDC_User" prompt="TDC_User?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="3d9430b1-d03a-46d8-a291-0a1b581f880f" internalId="_6rEvhTTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="TDS_URL" prompt="TDS_URL?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="https://tds.us.cloud.talend.com/data-stewardship" internalId="_6rEvhzTOEeuXTauYxf3kuQ"/>
     <contextParameter comment="" name="SF_UserID" prompt="SF_UserID?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="charney" internalId="_16Rq8BDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Account" prompt="SF_Account?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="lkucojk" internalId="_16Rq8RDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_Password" value="enc:system.encryption.key.v1:rFt0qCwP3xOhG3vIFMQy/yKEohram0lQa+O5Qbs6JaJBA4M+H4TYXpfbKg==" internalId="_16Rq8hDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Warehouse" prompt="SF_Warehouse?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="DEMO_WH" internalId="_16Rq8xDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Account" prompt="SF_Account?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="LKUCOJK-LNB70460" internalId="_16Rq8RDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_Password" value="enc:system.encryption.key.v1:qp+JSLER1hfOcfeUmyrWTJtNCDLe320eXbGDLdaYP+UTU9QUSxmrHalUdw==" internalId="_16Rq8hDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Warehouse" prompt="SF_Warehouse?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="COMPUTE_WH" internalId="_16Rq8xDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Database" prompt="SF_Database?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="RGS_DEMO_DB" internalId="_16Rq9BDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Schema" prompt="SF_Schema?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="LANDING" internalId="_16Rq9RDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Table" prompt="SF_Table?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="DEMOGRAPHICS" internalId="_16Rq9hDkEfC80qGuslKB3g"/>
@@ -336,7 +336,7 @@
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataStewardshipTaskInput_1" show="false"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Process Fixed Records"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;255;128"/>
   </subjob>
 </talendfile:ProcessType>

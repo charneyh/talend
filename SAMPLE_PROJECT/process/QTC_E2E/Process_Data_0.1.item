@@ -2,12 +2,12 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="Directory" prompt="Directory?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Directory" value="C:/Users/Charney Hoffmann/Documents/Qlik/Certification/Data Integration End-to-End  - Demo Kit/Talend/" internalId="_KWGJoJU4Ee-xSNYNOcbiRg"/>
-    <contextParameter comment="" name="TDC_Pass" prompt="TDC_Pass?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Password" value="" internalId="_KWGJpJU4Ee-xSNYNOcbiRg"/>
-    <contextParameter comment="" name="TDC_User" prompt="TDC_User?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="" internalId="_KWGJpZU4Ee-xSNYNOcbiRg"/>
+    <contextParameter comment="" name="TDC_Pass" prompt="TDC_Pass?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_Password" value="enc:system.encryption.key.v1:VcspFHZNDOf327VsJO4xpXMkhl/1Ktq3FAPKSDL4ux9zpuDtowfy09kBwA==" internalId="_KWGJpJU4Ee-xSNYNOcbiRg"/>
+    <contextParameter comment="" name="TDC_User" prompt="TDC_User?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="3d9430b1-d03a-46d8-a291-0a1b581f880f" internalId="_KWGJpZU4Ee-xSNYNOcbiRg"/>
     <contextParameter comment="" name="TDS_URL" prompt="TDS_URL?" promptNeeded="false" repositoryContextId="_2-PwAAvGEeqkgILlMt0b2Q" type="id_String" value="https://tds.us.cloud.talend.com/data-stewardship" internalId="_KWGJp5U4Ee-xSNYNOcbiRg"/>
     <contextParameter comment="" name="SF_UserID" prompt="SF_UserID?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="charney" internalId="_kzUxEBDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_Password" value="enc:system.encryption.key.v1:0Yb7j6FcDiT0Xgv26Zxr9J4U+CUJuUFJIF4tqBTP4tbMRLjQv/K6E5qykQ==" internalId="_kzUxERDkEfC80qGuslKB3g"/>
-    <contextParameter comment="" name="SF_Warehouse" prompt="SF_Warehouse?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="DEMO_WH" internalId="_kzUxEhDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Password" prompt="SF_Password?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_Password" value="enc:system.encryption.key.v1:XqdN+wk/uSur/OV7y7m0gDAIfvm7j9xP8XDsTsAn1zq3APAi3L4z3UVWNQ==" internalId="_kzUxERDkEfC80qGuslKB3g"/>
+    <contextParameter comment="" name="SF_Warehouse" prompt="SF_Warehouse?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="COMPUTE_WH" internalId="_kzUxEhDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Database" prompt="SF_Database?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="RGS_DEMO_DB" internalId="_kzUxExDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Schema" prompt="SF_Schema?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="LANDING" internalId="_kzUxFBDkEfC80qGuslKB3g"/>
     <contextParameter comment="" name="SF_Table" prompt="SF_Table?" promptNeeded="false" repositoryContextId="_D7kQ4BDkEfC80qGuslKB3g" type="id_String" value="DEMOGRAPHICS" internalId="_kzUxFRDkEfC80qGuslKB3g"/>
@@ -489,20 +489,20 @@
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataStewardshipTaskDelete_1" show="false"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Clean Up Job"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;128;255"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;255;128"/>
   </subjob>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="ETL Pipeline with Data Quality routing"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="93;174;241"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;128;255"/>
   </subjob>
 </talendfile:ProcessType>

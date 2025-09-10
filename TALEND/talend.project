@@ -3,5 +3,5 @@
   <TalendProperties:Project xmi:id="_JxBHgIOGEfCf_-R4OiRLVA" label="Talend" language="java" technicalLabel="TALEND" author="_JxBHgYOGEfCf_-R4OiRLVA" productVersion="Talend Cloud Data Fabric-8.0.1.20250730_0900-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/charneyh/talend&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_Jy_dcIOGEfCf_-R4OiRLVA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
-  <TalendProperties:User xmi:id="_JxBHgYOGEfCf_-R4OiRLVA" login="charney@visionwrights_llc_nfr1" firstName="Charney" lastName="Hoffman" type="DQ"/>
+  <TalendProperties:User xmi:id="_JxBHgYOGEfCf_-R4OiRLVA" login="charney@visionwrights_llc_nfr1" firstName="Charney" lastName="Hoffmann" type="DQ"/>
 </xmi:XMI>
